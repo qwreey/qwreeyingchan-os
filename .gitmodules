@@ -1,0 +1,6 @@
+[submodule "theme/adw-gtk3"]
+	path = theme/adw-gtk3
+	url = https://github.com/lassekongo83/adw-gtk3
+[submodule "lunar"]
+	path = lunar
+	url = https://github.com/qwreey/lunar
