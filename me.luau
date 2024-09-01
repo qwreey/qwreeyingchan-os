@@ -64,6 +64,8 @@ Package {
 
         Package :Name('Clipboard') :Handle(require 'clipboard')
         Package :Name('Basic Apps') {
+            Flatpak 'blackbox';
+
             Package 'snapshot' -- Camera
                     'gnome-calculator' -- Calculator 
                     'gnome-calendar' -- Calendar
@@ -98,14 +100,18 @@ Package {
                     'baobab' -- Disk file size analyzer
                     'gparted' -- Disk manager
                     'gnome-system-monitor';
+
             Package :Name('File Browse') {
                 Package :Name("Explorer") 'nautilus' 'nemo';
                 Package :Name('Archive Utility') 'aur/file-roller-linuxmint' 'nemo-fileroller';
+                Package :Name('Image Viewer') 'eog';
+                Package :Name('Video Viewer') 'clapper';
+
+                XdgMime '';
+
                 -- TODO: xdg default to user
-                Package :Name('Image Viewer') 'eog' {
-                    -- TODO: xdg default to user
-                };
             };
+
             Package :Name('Remote') {
                 Package :Name('remmina') 'remmina' 'libvncserver' 'spice-gtk' 'freerdp';
             };
