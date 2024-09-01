@@ -1,3 +1,0 @@
-cat - <<END
-string
-END
