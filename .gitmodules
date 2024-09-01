@@ -4,3 +4,6 @@
 [submodule "lunar"]
 	path = lunar
 	url = https://github.com/qwreey/lunar
+[submodule "lunar-pkg"]
+	path = lunar-pkg
+	url = https://github.com/qwreey/qwreeyingchan-os-lunarpkg
