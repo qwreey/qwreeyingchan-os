@@ -1,0 +1,3 @@
+cat - <<END
+string
+END

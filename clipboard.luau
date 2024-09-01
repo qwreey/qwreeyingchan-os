@@ -1,0 +1,4 @@
+
+return Handle {
+    Package 'copyq';
+}
