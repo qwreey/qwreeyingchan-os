@@ -7,3 +7,9 @@
 [submodule "lunar-pkg"]
 	path = lunar-pkg
 	url = https://github.com/qwreey/qwreeyingchan-os-lunarpkg
+[submodule "gnome-essential"]
+	path = gnome-essential
+	url = https://github.com/qwreey/gnome-essential
+[submodule "theme/Colloid-icon-theme"]
+	path = theme/Colloid-icon-theme
+	url = https://github.com/vinceliuice/Colloid-icon-theme
